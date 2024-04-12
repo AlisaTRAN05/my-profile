@@ -1,0 +1,97 @@
+/*colors and fonts*/
+body {
+    background-color: #F4D6D6;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+header {
+    background-color: #DE5D83;
+    color: #fff;
+    padding: 0.1px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+main {
+    padding: 0px;
+}
+
+h2, h3 {
+    color: #DE5D83;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.hobby {
+    width: 30%;
+    margin: 5px 10px 10px;
+}
+
+.hobby img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #DE5D83;
+    color: #fff;
+    padding: 0.1px 0px 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: 800px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 10px; 
+}
+
+.text p {
+  margin: 10px;
+}
+
+/*custom design with class*/
+
+.container {
+    width: 800px;
+    margin: 10px auto;
+
+}
+
+.card-white {
+    background-color: floralwhite;
+    padding: 5px 50px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    text-align: center;
+}
